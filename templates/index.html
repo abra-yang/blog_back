@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+这是一个测试模板的页面
+<hr>
+
+
+<table border="1">
+    {%for i in mydict%}
+    <tr>
+        {%for j in mydict%}
+        <td>{{j}}*{{i}}=1000</td>
+        {%endfor%}
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</html>
